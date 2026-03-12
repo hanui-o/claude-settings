@@ -10,7 +10,7 @@ echo "🔧 Claude Code 설정을 현재 프로젝트에 설치합니다..."
 mkdir -p "$TARGET_DIR/commands"
 
 # 커맨드 목록
-COMMANDS=(dev review commit update prd build perf a11y)
+COMMANDS=(dev review commit update prd build perf a11y component ui-review refactor test deploy optimize)
 
 for cmd in "${COMMANDS[@]}"; do
   if [ -f "$TARGET_DIR/commands/$cmd.md" ]; then
