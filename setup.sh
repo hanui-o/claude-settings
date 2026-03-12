@@ -8,6 +8,18 @@ echo "🔧 Claude Code 설정을 현재 프로젝트에 설치합니다..."
 echo ""
 
 # ──────────────────────────────────────
+# claude-settings 레포 안에서 실행 방지
+# ──────────────────────────────────────
+if [ -f "setup.sh" ] && [ -d "commands" ] && [ -d "hooks" ]; then
+  echo "⚠️  claude-settings 레포 안에서 실행한 것 같습니다."
+  echo "   프로젝트 루트에서 아래 명령어로 실행해주세요:"
+  echo ""
+  echo "   bash <(curl -sL https://raw.githubusercontent.com/hanui-o/claude-settings/main/setup.sh)"
+  echo ""
+  exit 1
+fi
+
+# ──────────────────────────────────────
 # 0. 설치 범위 선택
 # ──────────────────────────────────────
 COMMON_COMMANDS=(dev review commit update prd build test deploy)
