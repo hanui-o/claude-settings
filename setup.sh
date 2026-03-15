@@ -22,7 +22,7 @@ fi
 # ──────────────────────────────────────
 # 0. 설치 범위 선택
 # ──────────────────────────────────────
-COMMON_COMMANDS=(dev review commit update prd build test deploy)
+COMMON_COMMANDS=(dev review commit update prd build test deploy blog)
 FRONTEND_COMMANDS=(perf a11y component ui-review refactor optimize)
 BACKEND_COMMANDS=(api db migrate seed security api-doc env-check)
 
