@@ -2,12 +2,7 @@
 
 ## Instructions
 
-1. **브랜치 확인:**
-   - `git branch --show-current` 실행
-   - **main 또는 master 브랜치면 커밋 중단**
-   - 사용자에게 새 브랜치 생성 또는 기존 브랜치 전환을 요청
-
-2. **변경사항 리뷰:**
+1. **변경사항 리뷰:**
    - `git status --short`로 변경 파일 확인
    - `git diff`로 변경 내용 확인
    - `git log --oneline -5`로 최근 커밋 스타일 확인

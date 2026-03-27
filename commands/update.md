@@ -2,11 +2,7 @@
 
 ## Instructions
 
-1. **브랜치 확인:**
-   - `git branch --show-current` 실행
-   - **main 또는 master 브랜치면 중단** — 사용자에게 브랜치 전환 요청
-
-2. **커밋:**
+1. **커밋:**
    - `git status`로 변경사항 확인
    - 변경이 있으면 Conventional Commits 형식으로 커밋
    - **한 줄로만 작성. 본문 없음. Co-Authored-By 없음.**
